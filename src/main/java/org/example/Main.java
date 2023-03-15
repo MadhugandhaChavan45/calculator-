@@ -12,7 +12,7 @@ public class Main
         double number,power;
         while(flag==0)
         {
-            System.out.println("Give Operation of Choice\n");
+            System.out.println("Give Operation of Choice:\n");
             System.out.println("1. Square root function");
             /*System.out.println("2. Factorial Function");
             System.out.println("3. Natural logarithm");
