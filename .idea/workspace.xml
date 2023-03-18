@@ -55,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/madhu/Desktop/calculator/src/main/resources",
+    "last_opened_file_path": "/home/madhu/Desktop/calculator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +88,7 @@
       <workItem from="1678959719110" duration="4510000" />
       <workItem from="1678969787122" duration="2318000" />
       <workItem from="1679060316146" duration="9560000" />
+      <workItem from="1679130722280" duration="1712000" />
     </task>
     <servers />
   </component>
