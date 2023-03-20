@@ -11,13 +11,13 @@ public class test {
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
 
-//    @Test
-//    public void test_factorial() {
-//        int a = 7;
-//        int expectedResult = 5040;
-//        int result = Main.factorial(a);
-//        Assert.assertEquals(expectedResult, result);
-//    }
+    @Test
+    public void test_factorial() {
+        int a = 7;
+        int expectedResult = 5040;
+        int result = Main.factorial(a);
+        Assert.assertEquals(expectedResult, result);
+    }
 //
 //    @Test
 //    public void test_naturalLog() {
