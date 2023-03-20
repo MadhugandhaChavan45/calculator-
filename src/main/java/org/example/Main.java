@@ -30,17 +30,18 @@ public class Main
                     number=sc.nextDouble();
                     factorial(number);
                     break;
-                /*case 3:
+                case 3:
                     System.out.println("Enter Number");
                     number=sc.nextDouble();
+                    naturalLog(number);
                     break;
-                case 4:
+                /*case 4:
                     System.out.println("Enter Number");
                     number=sc.nextDouble();
                     System.out.println("Enter Power");
                     power=sc.nextDouble();
                     break;*/
-                case 3:
+                case 4:
                     System.out.println("Existing");
                     flag=1;
                     break;
@@ -69,12 +70,12 @@ public class Main
         logger.info("\nExecuting factorial function!");
         return fact;
     }
-//    public static double naturalLog(double number){
-//        double ans = Math.log(number);
-//        System.out.println("Natural Logarithm of "+number+" is "+ans+"\n");
-//        logger.info("\nExecuting log function!");
-//        return ans;
-//    }
+    public static double naturalLog(double number){
+        double ans = Math.log(number);
+        System.out.println("Natural Logarithm of "+number+" is "+ans+"\n");
+        logger.info("\nExecuting log function!");
+        return ans;
+    }
 //    public static double power(double number, double power){
 //        double ans = Math.pow(number,power);
 //        System.out.println(+number+" raised to "+power+" is " +ans+"\n");

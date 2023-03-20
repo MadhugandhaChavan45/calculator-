@@ -19,14 +19,14 @@ public class test {
         Assert.assertEquals(expectedResult, result);
     }
 //
-//    @Test
-//    public void test_naturalLog() {
-//        double a = 2.718;
-//        double expectedResult = 1.0;
-//        double result = Main.naturalLog(a);
-//        Assert.assertEquals(expectedResult, result, 0.2f);
-//    }
-//
+    @Test
+    public void test_naturalLog() {
+        double a = 2.718;
+        double expectedResult = 1.0;
+        double result = Main.naturalLog(a);
+        Assert.assertEquals(expectedResult, result, 0.2f);
+    }
+
 //    @Test
 //    public void test_power() {
 //        double a = 3.0;
