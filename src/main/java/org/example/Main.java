@@ -17,7 +17,7 @@ public class Main
             System.out.println("2. Factorial Function");
             /*System.out.println("3. Natural logarithm");
             System.out.println("4. Power Function");*/
-            System.out.println("2. Exit\n");
+            System.out.println("3. Exit\n");
             operator = sc.nextInt();
             switch (operator) {
                 case 1:
