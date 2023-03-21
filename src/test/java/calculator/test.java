@@ -18,7 +18,8 @@ public class test {
         int result = Main.factorial(a);
         Assert.assertEquals(expectedResult, result);
     }
-//
+
+    //
     @Test
     public void test_naturalLog() {
         double a = 2.718;

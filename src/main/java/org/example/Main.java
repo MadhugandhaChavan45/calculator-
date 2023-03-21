@@ -15,9 +15,9 @@ public class Main
             System.out.println("Give Operation of Choice:\n");
             System.out.println("1. Square root operation");
             System.out.println("2. Factorial Function");
-            /*System.out.println("3. Natural logarithm");
-            System.out.println("4. Power Function");*/
-            System.out.println("3. Exit\n");
+            System.out.println("3. Natural logarithm");
+            /*System.out.println("4. Power Function");*/
+            System.out.println("4. Exit\n");
             operator = sc.nextInt();
             switch (operator) {
                 case 1:
@@ -55,25 +55,26 @@ public class Main
     public static double squareRoot(double number) {
         double ans = Math.sqrt(number);
         System.out.println("Square root of " + number + " is " + ans + "\n");
-        logger.info("\nExecuting squareRoot function!");
+        logger.info("Executing squareRoot function!");
         return ans;
     }
 
     public static int factorial(double number)
     {
-        int fact=1;
+        int fact=1;1
+            4
         for(int i=1;i<=number;i++)
         {
             fact=fact*i;
         }
         System.out.println("factorial of "+number+" is "+fact+"\n");
-        logger.info("\nExecuting factorial function!");
+        logger.info("Executing factorial function!");
         return fact;
     }
     public static double naturalLog(double number){
         double ans = Math.log(number);
         System.out.println("Natural Logarithm of "+number+" is "+ans+"\n");
-        logger.info("\nExecuting log function!");
+        logger.info("Executing log function!");
         return ans;
     }
 //    public static double power(double number, double power){
