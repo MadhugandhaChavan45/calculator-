@@ -5,16 +5,16 @@ import org.junit.Test;
 public class test {
     @Test
     public void test_squareRoot() {
-        double a = 169.0;
-        double expectedResult = 13.0;
+        double a = 484.0;
+        double expectedResult = 22.0;
         double result = Main.squareRoot(a);
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
 
     @Test
     public void test_factorial() {
-        int a = 7;
-        int expectedResult = 5040;
+        int a = 6;
+        int expectedResult = 720;
         int result = Main.factorial(a);
         Assert.assertEquals(expectedResult, result);
     }
@@ -28,13 +28,13 @@ public class test {
         Assert.assertEquals(expectedResult, result, 0.2f);
     }
 
-//    @Test
-//    public void test_power() {
-//        double a = 3.0;
-//        double b = 4.0;
-//        double expectedResult = 81.0;
-//        double result = Main.power(a,b);
-//        Assert.assertEquals(expectedResult, result, 0.0f);
-//    }
+    @Test
+    public void test_power() {
+        double a = 4.0;
+        double b = 5.0;
+        double expectedResult = 1024.0;
+        double result = Main.power(a,b);
+        Assert.assertEquals(expectedResult, result, 0.0f);
+    }
 
 }

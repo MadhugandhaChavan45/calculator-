@@ -16,8 +16,8 @@ public class Main
             System.out.println("1. Square root operation");
             System.out.println("2. Factorial Function");
             System.out.println("3. Natural logarithm");
-            /*System.out.println("4. Power Function");*/
-            System.out.println("4. Exit\n");
+            System.out.println("4. Power Function");
+            System.out.println("5. Exit\n");
             operator = sc.nextInt();
             switch (operator) {
                 case 1:
@@ -35,13 +35,14 @@ public class Main
                     number=sc.nextDouble();
                     naturalLog(number);
                     break;
-                /*case 4:
+                case 4:
                     System.out.println("Enter Number");
                     number=sc.nextDouble();
                     System.out.println("Enter Power");
                     power=sc.nextDouble();
-                    break;*/
-                case 4:
+                    power(number,power);
+                    break;
+                case 5:
                     System.out.println("Existing");
                     flag=1;
                     break;
@@ -76,10 +77,10 @@ public class Main
         logger.info("Executing log function!");
         return ans;
     }
-//    public static double power(double number, double power){
-//        double ans = Math.pow(number,power);
-//        System.out.println(+number+" raised to "+power+" is " +ans+"\n");
-//          logger.info("\nExecuting power function!");
-//        return ans;
-//    }
+    public static double power(double number, double power){
+        double ans = Math.pow(number,power);
+        System.out.println(+number+" raised to "+power+" is " +ans+"\n");
+          logger.info("Executing power function!");
+        return ans;
+    }
 }
