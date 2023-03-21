@@ -6,17 +6,23 @@ public class test {
     @Test
     public void test_squareRoot() {
         double a = 484.0;
-        double expectedResult = 22.0;
-        double result = Main.squareRoot(a);
-        Assert.assertEquals(expectedResult, result, 0.0f);
+        double b = 1225.0;
+//        double expectedResult = 22.0;
+        double result1 = Main.squareRoot(a);
+        double result2 = Main.squareRoot(b);
+        Assert.assertEquals(22, result1, 0.0f);
+        Assert.assertEquals(35, result2, 0.0f);
     }
 
     @Test
     public void test_factorial() {
         int a = 6;
+        int b = 7;
         int expectedResult = 720;
-        int result = Main.factorial(a);
-        Assert.assertEquals(expectedResult, result);
+        int result1 = Main.factorial(a);
+        int result2 = Main.factorial(b);
+        Assert.assertEquals(720, result1);
+        Assert.assertEquals(5040, result2);
     }
 
     //
@@ -30,11 +36,15 @@ public class test {
 
     @Test
     public void test_power() {
-        double a = 4.0;
-        double b = 5.0;
+        double a1 = 4.0;
+        double b1 = 5.0;
+        double a2 = 3.0;
+        double b2 = 5.0;
         double expectedResult = 1024.0;
-        double result = Main.power(a,b);
-        Assert.assertEquals(expectedResult, result, 0.0f);
+        double result1 = Main.power(a1,b1);
+        double result2 = Main.power(a2,b2);
+        Assert.assertEquals(1024, result1, 0.0f);
+        Assert.assertEquals(243, result2, 0.0f);
     }
 
 }
