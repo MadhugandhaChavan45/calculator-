@@ -69,7 +69,7 @@ public class Main
         }
         System.out.println("factorial of "+number+" is "+fact+"\n");
         logger.info("Executing factorial function!");
-        return fact;
+        return fact;S
     }
     public static double naturalLog(double number){
         double ans = Math.log(number);
