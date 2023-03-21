@@ -61,8 +61,7 @@ public class Main
 
     public static int factorial(double number)
     {
-        int fact=1;1
-            4
+        int fact=1;
         for(int i=1;i<=number;i++)
         {
             fact=fact*i;
