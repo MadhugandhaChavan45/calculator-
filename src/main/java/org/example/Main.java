@@ -80,7 +80,7 @@ public class Main
     public static double power(double number, double power){
         double ans = Math.pow(number,power);
         System.out.println(+number+" raised to "+power+" is " +ans+"\n");
-          logger.info("Executing power function!");
+        logger.info("Executing power function!");
         return ans;
     }
 }
