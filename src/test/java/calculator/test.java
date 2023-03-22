@@ -6,13 +6,13 @@ public class test {
     @Test
     public void test_squareRoot() {
         double a = 484.0;
-//        double b = 1225.0;
+        double b = 1225.0;
 //        double c = 169.0;
         double result1 = Main.squareRoot(a);
-//        double result2 = Main.squareRoot(b);
+        double result2 = Main.squareRoot(b);
 //        double result3 = Main.squareRoot(c);
         Assert.assertEquals(22, result1, 0.0f);
-//        Assert.assertEquals(35, result2, 0.0f);
+        Assert.assertEquals(35, result2, 0.0f);
 //        Assert.assertEquals(13, result3, 0.0f);
     }
 
